@@ -13,7 +13,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 ### nmap
 
-- [Scan IP range ](nmap/scan-ip-range-for-port.md)
+- [Scan IP range for a specific port](nmap/scan-ip-range-for-port.md)
 
 ### ubiquiti
 
