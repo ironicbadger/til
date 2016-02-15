@@ -8,8 +8,18 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 ### Categories
 
+* [command-line](#command-line)
+* [docker](#docker)
 * [nmap](#nmap)
 * [ubiquiti](#ubiquiti)
+
+### command-line
+
+- [Remove unwanted prefix from multiple files](command-line/remove-unwanted-prefixes.md)
+
+### docker
+
+- [Change Docker root directory under systemd](docker/change-docker-root.md)
 
 ### nmap
 
