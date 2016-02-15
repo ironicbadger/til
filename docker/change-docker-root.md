@@ -24,9 +24,11 @@ This option is preferred as directly editing `.service` files should be avoided.
 
 * `vi /lib/systemd/system/docker.service.d/docker.root.conf` and populate with:
 
-    [Service]
-    ExecStart=
-    ExecStart=/usr/bin/docker daemon -g /new/docker/root -H fd://
+```sh
+[Service]
+ExecStart=
+ExecStart=/usr/bin/docker daemon -g /new/docker/root -H fd://
+```
 
 * `systemctl daemon-reload`
 * `systemctl restart docker`
