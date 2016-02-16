@@ -19,6 +19,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 ### docker
 
+- [Official Docker install script for `yum` and `apt`](docker/yum-apt-repos-docker.md)
 - [Change Docker root directory under systemd](docker/change-docker-root.md)
 
 ### nmap
