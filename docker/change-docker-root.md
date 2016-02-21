@@ -22,7 +22,7 @@ Since we're using systemd modifying the `DOCKER-OPTS` tag within `/etc/default/d
 
 This option is preferred as directly editing `.service` files should be avoided. They may be overwritten during an update for example.
 
-* `vi /lib/systemd/system/docker.service.d/docker.root.conf` and populate with:
+* `vi /etc/systemd/system/docker.service.d/docker.root.conf` and populate with:
 
 ```sh
 [Service]

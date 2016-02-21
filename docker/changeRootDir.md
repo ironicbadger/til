@@ -40,16 +40,10 @@ Two solutions are presented below, one which edits the docker.service file direc
 ### Solution 2 (Nicer, Easy Way): Create systemd drop-in to override ExecStart in docker.service
 In this method, we create a drop-in snippet that effectively overrides docker’s default ExecStart arguments, which systemd will scan and execute. This is by far cleaner, given there would be no need to continually update docker.service following updates which may overwrite docker.service in the process.
 
-1. Navigate to whereever your systemd docker.service file is located  
-    ```sh
-    $ cd /lib/systemd/system
-    ```
-
-2. Create docker.service.d directory:
+1. Create docker.service.d directory:
 sudo mkdir docker.service.d and move into the directory.
     ```sh
-    $ sudo mkdir docker.service.d
-    $ cd docker.service.d
+    $ sudo mkdir /etc/systemd/system/docker.service.d && cd /etc/systemd/system/docker.service.d
     ```
 
 3. Create a `.conf` file within the new directory e.g. `docker.root.conf` (the file can be named whatever you wish as far as I know!).
