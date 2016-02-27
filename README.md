@@ -22,6 +22,10 @@ A collection of concise write-ups on small things I learn day to day across a va
 - [Official Docker install script for `yum` and `apt`](docker/yum-apt-repos-docker.md)
 - [Change Docker root directory under systemd](docker/change-docker-root.md)
 
+### libvirt
+
+- [List Host CPU capabilities using `virsh`](libvirt/virsh-host-cpu.md)
+
 ### nmap
 
 - [Scan IP range for a specific port](nmap/scan-ip-range-for-port.md)
