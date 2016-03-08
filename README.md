@@ -17,6 +17,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 ### command-line
 
 - [Remove unwanted prefix from multiple files](command-line/remove-unwanted-prefixes.md)
+- [Fix Virtualbox Modules after kernel update -  if all else fails](command-line/virtualbox-fix-modules-burn-way.md)
 
 ### docker
 
