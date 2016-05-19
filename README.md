@@ -14,6 +14,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 * [libvirt](#libvirt)
 * [nmap](#nmap)
 * [ubiquiti](#ubiquiti)
+* [ubuntu](#ubuntu)
 
 ### arch
 
@@ -39,3 +40,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 ### ubiquiti
 
 - [Move a Ubiquiti AP to a new controller](ubiquiti/move-ap-to-new-controller.md)
+
+### ubuntu
+
+- [Fix a full `/boot` partition](ubuntu/ubuntu_full_boot_partition.md)
