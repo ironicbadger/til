@@ -23,6 +23,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 ### command-line
 
 - [Remove unwanted prefix from multiple files](command-line/remove-unwanted-prefixes.md)
+- [Share any directory as a website using Python](command-line/use-python-to-webshare-any-directory.md)
 
 ### docker
 
