@@ -15,6 +15,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 * [nmap](#nmap)
 * [ubiquiti](#ubiquiti)
 * [ubuntu](#ubuntu)
+* [vim](#vim)
 
 ### arch
 
@@ -47,3 +48,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 ### ubuntu
 
 - [Fix a full `/boot` partition](ubuntu/ubuntu_full_boot_partition.md)
+
+### vim
+
+- [sudo a file from within vim](vim/sudo_vim.md)
