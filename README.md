@@ -28,6 +28,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 - [Push to multiple git remotes at once](command-line/push-to-multiple-git.md)
 - [Rsync over SSH](command-line/rsync-over-ssh.md)
 - [Move a git repo with history](command-line/move-a-git-repo-with-history.md)
+- [Git checkout remote branch with tracking](command-line/git-checkout-remote.md)
 
 ### docker
 
