@@ -43,6 +43,10 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 - [Scan IP range for a specific port](nmap/scan-ip-range-for-port.md)
 
+### synology
+
+- [Setup Dynamic DNS on a Synology NAS](synology/synology-ddns.md)
+
 ### ubiquiti
 
 - [Move a Ubiquiti AP to a new controller](ubiquiti/move-ap-to-new-controller.md)
