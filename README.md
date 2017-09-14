@@ -43,6 +43,10 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 - [Scan IP range for a specific port](nmap/scan-ip-range-for-port.md)
 
+### openshift
+
+- [OCP dynamic storage allocation](openshift/dynamic-storage-allocation.md)
+
 ### synology
 
 - [Setup Dynamic DNS on a Synology NAS](synology/synology-ddns.md)
