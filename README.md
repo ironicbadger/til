@@ -12,6 +12,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 * [command-line](#command-line)
 * [docker](#docker)
 * [libvirt](#libvirt)
+* [linux](#linux)
 * [nmap](#nmap)
 * [ubiquiti](#ubiquiti)
 * [ubuntu](#ubuntu)
@@ -38,6 +39,10 @@ A collection of concise write-ups on small things I learn day to day across a va
 ### libvirt
 
 - [List Host CPU capabilities using `virsh`](libvirt/virsh-host-cpu.md)
+
+### linux
+
+- [Fix Firefox dark themeing issues](linux/firefox-dark-theme.md)
 
 ### nmap
 
