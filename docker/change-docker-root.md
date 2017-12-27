@@ -13,7 +13,7 @@ Since we're using systemd modifying the `DOCKER-OPTS` tag within `/etc/default/d
 
 ##### Option 1 - Direct edit to `docker.service`
 
-* Edit `ExecStart` line to look like this `ExecStart =/usr/bin/docker daemon -g /new/docker/root/dir -H fd://`
+* Edit `ExecStart` line to look like this `ExecStart =/usr/bin/dockerd -g /new/docker/root/dir -H fd://`
 * `systemctl daemon-reload`
 * `systemctl restart docker`
 * `docker info` - verify the root dir has updated
@@ -27,7 +27,7 @@ This option is preferred as directly editing `.service` files should be avoided.
 ```sh
 [Service]
 ExecStart=
-ExecStart=/usr/bin/docker daemon -g /new/docker/root -H fd://
+ExecStart=/usr/bin/dockerd -g /new/docker/root -H fd://
 ```
 
 * `systemctl daemon-reload`
