@@ -38,6 +38,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 ### libvirt
 
 - [List Host CPU capabilities using `virsh`](libvirt/virsh-host-cpu.md)
+- [Fix QEMU guest with no internet](libvirt/qemu-no-internet.md)
 
 ### nmap
 
