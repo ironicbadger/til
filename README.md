@@ -30,7 +30,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 - [Rsync over SSH](command-line/rsync-over-ssh.md)
 - [Move a git repo with history](command-line/move-a-git-repo-with-history.md)
 - [Git checkout remote branch with tracking](command-line/git-checkout-remote.md)
-- [Kill multiple processes at once](kill-multiple-processes-at-once.md)
+- [Kill multiple processes at once](command-line/kill-multiple-processes-at-once.md)
 
 ### docker
 
