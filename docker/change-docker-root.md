@@ -50,4 +50,4 @@ Open or create `/etc/docker/daemon.json` and populate it with:
 * `docker info` - verify the root dir has updated
 
 ***Note - Existing Containers and Images***  
-If you already have containers or images in `/var/lib/docker` you may wish to stop and back these up before moving them to the new root location. Moving can be done by either `rsync -a /var/lib/docker/* /path/to/new/root` or if permissions do not matter, you can simply use mv  or cp too.
+If you already have containers or images in `/var/lib/docker` you may wish to stop and back these up before moving them to the new root location. Moving can be done by either `rsync -a /var/lib/docker/ /path/to/new/root` or if permissions do not matter, you can simply use mv  or cp too.
